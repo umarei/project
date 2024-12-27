@@ -4,6 +4,9 @@ This project is a web application that scrapes trending topics from Twitter, sto
 
 ---
 
+
+
+
 ## Features
 
 - **Web Scraping**: Uses Selenium to log in to Twitter and scrape the top 5 trending topics.
