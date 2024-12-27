@@ -1,0 +1,42 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+ENV/
+env/
+
+# Logs
+logs/
+*.log
+
+# Virtual Environment
+.venv/
+venv/
+
+# IDE-specific
+.vscode/
+.idea/
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Dependency files
+*.lock
+pip-log.txt
+
+# Flask-specific
+instance/
+*.sqlite3
+
+# MongoDB data
+*.bson
+*.json
+
+# Static files
+static/chart.js

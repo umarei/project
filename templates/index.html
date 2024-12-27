@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Trends</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Twitter Trending Topics</h1>
+        <button id="fetch-trends">Fetch Trends</button>
+        <div id="results">
+            <h2>Trending Topics:</h2>
+            <ul id="trends-list"></ul>
+            <h2>Request Details:</h2>
+            <p id="ip-info"></p>
+            <h2>Visualization:</h2>
+            <canvas id="trends-chart" width="400" height="200"></canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ url_for('static', filename='chart.js') }}"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+
+</html>
