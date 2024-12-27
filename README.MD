@@ -172,12 +172,6 @@ python -m unittest discover -s tests
 
 ---
 
-## License
+## Conclusion
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
-## Contributing
-
-Feel free to submit issues and pull requests for improvements. Contributions are always welcome!
+Thank you for exploring the Twitter Trends Scraper project! This application showcases my ability to build a full-stack application combining web scraping, data handling, and visualization. I welcome any feedback or questions about the implementation and design choices.
